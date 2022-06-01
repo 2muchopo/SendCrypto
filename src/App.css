@@ -1,0 +1,53 @@
+*{box-sizing: border-box;}
+.App {
+  width: 500px;
+  height: 480px;
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  margin: 50px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.nav{display: flex;
+justify-content: center;
+border-bottom: 2px solid lightgray;}
+
+.nav img{height: 80px;
+object-fit: cover;
+margin-right: -25px;}
+
+.subject{text-align: center;}
+
+.connect{text-align: center;
+margin-top: 10px;}
+
+button{padding: 10px;
+background-color: lightgray;
+cursor: pointer;}
+
+button:hover{background-color: rgba(211, 211, 211, 0.753);}
+
+.details{border: 2px solid lightgray;
+font-size: 16px;
+padding: 5px;
+padding-left: 90px;
+font-weight: 500;}
+
+.details input{height: 35px;
+width: 70%;}
+
+.details input::placeholder{padding-left: 10px;}
+
+
+.send button{padding: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+cursor: pointer;
+background-color: lightgray;
+margin-left: 70px;
+}
+
+
+
